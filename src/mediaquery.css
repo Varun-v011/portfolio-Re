@@ -90,7 +90,7 @@
     .section__pic-container{
         justify-content: center;
         width:fit-content;
-        height: fit-content;
+        height: 390px !important;
     
     }
     .section__pic-container img{
