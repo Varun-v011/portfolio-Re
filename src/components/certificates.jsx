@@ -13,7 +13,7 @@ function Certificate({ onClose }) {
     'React_ufn9ra',
     'Node_and_Express_js_taprps',
     'Buisness_analyst_and_process_managment_sfyvb4',
-    '20240514_194156_tt8rhs'
+    'Machine learning and big data using R language_yvnjkh'
   ];
   const images = imageIds.map((id) => {
     const img = cld

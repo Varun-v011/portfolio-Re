@@ -12,11 +12,11 @@ function Mainpg() {
   return (
     <>
     <section className='section-container'>
-    <section id="profile" style={{paddingLeft: '15vh'}}>
+    <section id="profile">
       <div className="section__pic-container" style={{overflow:'auto', borderRadius: '50%', height: '380px', width: '350px'}}>
         <AdvancedImage cldImg={profPic} style={{width: '350px'}} />
       </div>
-      <div className="section__text" style={{paddingLeft: "10vh" }}>
+      <div className="section__text">
         <p className="section__text__p1">Hello, I'm</p>
         <h1 className="title" style={{margin: '8px'}}>Varun V</h1>
         <p className="section__text__p2" >Software Developer</p>

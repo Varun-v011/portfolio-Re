@@ -18,8 +18,8 @@ function About() {
           <p className="section__text__p1">Get To Know More</p>
           <h1 className="title">About Me</h1>
           <div className="section-container">
-            <div className="section__pic-container" style={{ width: "600px", paddingLeft: '7vh' }}>
-              <AdvancedImage cldImg={abtpic} style={{width: '350px', height: '390px', borderRadius: '2vh', }}/>
+            <div className="section__pic-container1" style={{ }}>
+              <AdvancedImage cldImg={abtpic} />
             </div>
             <div className="about-details-container">
               <div className="about-containers">
@@ -37,7 +37,7 @@ function About() {
               </div>
               <div className="text-container">
                 <p>
-                  I am a Front-end Developer with a passion for building creative, beautiful user-friendly websites. I have a strong understanding of front-end development and am excited to put my skills to use in a professional setting.
+                  I am a Fullstack Developer with a passion for building creative, interactive user-friendly websites. I have a strong understanding of front-end development and am excited to put my skills to use in a professional setting.
                 </p>
               </div>
             </div>
