@@ -1,0 +1,184 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+      height: 83vh;
+      margin-bottom: 6rem;
+    }
+    .about-containers {
+      flex-wrap: wrap;
+    }
+    #contact,
+    #projects {
+      height: fit-content;
+    }
+    :root{
+        width: 90%;
+        
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    #desktop-nav {
+      display: none;
+    }
+    #hamburger-nav {
+      display: flex;
+    }
+    #experience,
+    .experience-details-container {
+      margin-top: 2rem;
+    }
+    #profile,
+    .section-container {
+      display: block;
+    }
+    .arrow {
+      display: none;
+    }
+    section,
+    .section-container {
+      height: fit-content;
+    }
+    section {
+      margin: 0 5%;
+    }
+    .section__pic-container {
+      width: 275px;
+      height: 275px;
+      margin: 0 auto 2rem;
+    }
+    .about-containers {
+      margin-top: 0;
+    }
+    
+  }
+  
+  @media screen and (max-width: 600px) {
+    #contact,
+    footer {
+      height: 40vh;
+    }
+    #profile {
+      height: 83vh;
+      margin-bottom: 0;
+    }
+    article {
+      font-size: 1rem;
+    }
+    footer nav {
+      height: fit-content;
+      margin-bottom: 2rem;
+    }
+    .about-containers,
+    .contact-info-upper-container,
+    .btn-container {
+      flex-wrap: wrap;
+    }
+    .contact-info-container {
+      margin: 0;
+    }
+    .contact-info-container p,
+    .nav-links li a {
+      font-size: 1rem;
+    }
+    .experience-sub-title {
+      font-size: 1.25rem;
+    }
+    .logo {
+      font-size: 1.5rem;
+    }
+    .nav-links {
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+    .section__pic-container {
+      width: auto;
+      height: 46vw;
+      justify-content: center;
+    }
+    .section__text__p2 {
+      font-size: 1.25rem;
+    }
+    .title {
+      font-size: 2rem;
+    }
+    .text-container {
+      text-align: justify;
+    }
+  }
+  @media (max-width: 768px) {
+    #popup-content {
+      grid-template-columns: repeat(2, 1fr);
+      padding-left: 17%; 
+      padding-top: 5%;
+      padding-bottom: 5%;
+     
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #popup-content {
+      grid-template-columns: repeat(2, 1fr); /* Single column on very small screens */
+    }
+  }
+  @media (max-width:768px){
+    #popup{
+      right: 20%;
+      left: .8%;
+      bottom: 40%;
+      height: 50%;
+      width: 100%;
+      z-index: 1; 
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1200px) {
+  #popup{
+    position: absolute;  /* Positions the popup outside the container's flow */
+    top: 50%;  /* Positions vertically in the center */
+    left: 50%;  /* Positions horizontally in the center */
+    transform: translate(-50%, -50%);  /* Adjusts positioning for centered content */
+    z-index: 10;  /* Sets the stacking order to appear above other elements */
+    /* Add other styles for size, background, etc. */
+    background-color: #999;
+    border-radius: 30px;
+    padding: 20px;
+    border: 3px solid;
+    border-color: black;
+    height: 45rem;
+    width: 70rem;
+    left:  40%;
+    opacity: 1;
+    display: none;  /* Hides the popup by default */
+    transition: 1ms;
+  }}
+  @media (min-width: 1200px) {
+    #popup{
+      position: absolute;  /* Positions the popup outside the container's flow */
+      top: 50%;  /* Positions vertically in the center */
+      left: 50%;  /* Positions horizontally in the center */
+      transform: translate(-50%, -50%);  /* Adjusts positioning for centered content */
+      z-index: 10;  /* Sets the stacking order to appear above other elements */
+      /* Add other styles for size, background, etc. */
+      background-color: #999;
+      border-radius: 30px;
+      padding: 20px;
+      border: 3px solid;
+      border-color: black;
+      height: 45rem;
+      width: 70rem;
+      left:  40%;
+      opacity: 1;
+      display: none;  /* Hides the popup by default */
+      transition: 1ms;
+  }
+    #popup-content {
+      grid-template-columns: repeat(3, 1fr);
+      
+   
+    }
+  }
+  
+  
+  
+  
+   

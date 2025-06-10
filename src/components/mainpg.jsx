@@ -1,14 +1,14 @@
 import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import {faArrowDown} from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faLinkedin, width } from '@fortawesome/free-brands-svg-icons/faLinkedin';
+import { faLinkedin, } from '@fortawesome/free-brands-svg-icons/faLinkedin';
 import { Cloudinary } from '@cloudinary/url-gen';
 import { AdvancedImage } from '@cloudinary/react';
 
+
 function Mainpg() {
   const cldImg=new Cloudinary({ cloud: { cloudName: 'dh7q7dmi8' } });
-  const profPic=cldImg.image('profile-pic')
+  const profPic=cldImg.image('20250510_133540_itgxr7')
   return (
     <>
     <section className='section-container'>
@@ -18,12 +18,12 @@ function Mainpg() {
       </div>
       <div className="section__text" style={{paddingLeft: "10vh" }}>
         <p className="section__text__p1">Hello, I'm</p>
-        <h1 className="title">Varun V</h1>
-        <p className="section__text__p2">Frontend Developer</p>
+        <h1 className="title" style={{margin: '8px'}}>Varun V</h1>
+        <p className="section__text__p2" >Software Developer</p>
         <div className="btn-container">
           
           <button style={{backgroundColor: '#1E90FF', borderRadius: '62vh'}}>
-            <a href='./Varun-resume.pdf' download style={{color: 'white', textDecoration: 'none'}}> Download CV</a>
+            <a href='./Varun-resume.pdf' download style={{ textDecoration: 'none'}}> Download CV</a>
           </button>
           
           <a href='#contact'>

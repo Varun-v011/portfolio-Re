@@ -14,12 +14,14 @@
 body{
     font-family: "Poppins", sans-serif;
     background-color:var(--bg-dark) !important;
+    width: fit-content;
 }
 html{
     scroll-behavior: smooth;
 }
 p{
     color: var(--text-light);
+    margin: 0 !important;
 }
 /*transistion*/
 a,
@@ -144,9 +146,10 @@ a:hover{
   section {
     padding-top: 4vh;
     height: 96vh;
-    margin: 0 10rem;
+    justify-content: center;
     box-sizing: border-box;
     min-height: fit-content;
+    padding: 1rem;
   }
   
   .section-container {
@@ -166,7 +169,6 @@ a:hover{
     display: flex;
     height: 400px;
     width: 400px;
-    margin: auto 0;
   }
   
   .section__text {
@@ -184,7 +186,7 @@ a:hover{
   
   .section__text__p2 {
     font-size: 1.75rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1rem !important;
   }
   
   .title {
@@ -537,7 +539,9 @@ button{
 .project-btn .a{
   text-decoration: none !important;
 }
-    
+.h1{
+  margin: 0% !important;
+}
   
     
    
