@@ -56,13 +56,13 @@ function Projects() {
               <button
                 className="btn btn-color-2 project-btn"
                 
-              ><a href='https://github.com/Varun-v011/shop' style={{ textDecoration: 'none'}}>
+              ><a href='https://github.com/Varun-v011/plant-shop' style={{ textDecoration: 'none'}}>
                 Github</a>
               </button>
               <button
                 className="btn btn-color-2 project-btn"
                 
-              ><a href='https://varun-v011.github.io/shop/home.html' style={{ textDecoration: 'none'}}>
+              ><a href='https://plant-shop-chi.vercel.app' style={{ textDecoration: 'none'}}>
                 Live Demo </a>
               </button>
             </div>
