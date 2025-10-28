@@ -118,7 +118,7 @@ function Experience() {
             <article>
             <FontAwesomeIcon icon={faDatabase}size='2x' />
               <div>
-                <h3>MangoDB</h3>
+                <h3>MongoDB</h3>
                 <p>Intermediate</p>
               </div>
             </article>
